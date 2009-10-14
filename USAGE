@@ -6,6 +6,10 @@ Description:
     The generator creates a controller class in app/controllers and
     a helper in app/helpers.
 
+    You'll need to create a route:
+    
+      map.resources :sparklines
+
 Example:
     ./script/generate sparklines
 
